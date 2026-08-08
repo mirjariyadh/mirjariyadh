@@ -371,94 +371,101 @@ export const CAREER_JOURNEY: JourneyExperience[] = [
     highlights: ['5.0 Star Rated on Fiverr & Upwork', '100% Job Success Rate', 'Completed 18+ major international BIM deliverables']
   },
   {
-    id: 'exp-project-eng',
-    title: 'Project Engineer',
-    company: 'Parallex Engineering Works',
+    id: 'sr-officer-bim',
+    title: 'Sr. Officer - Revit Designer ',
+    company: 'Healthcare Life Science Limited',
     employmentType: 'Full-time',
-    period: 'Jan 2023 – Feb 2024 (1 yr 2 mos)',
+    period: 'Jun 2022 – Feb 2024 (1 yr 8 mos)',
     location: 'Dhaka, Bangladesh',
-    summary: 'Managed structural engineering design drawings, BIM model integration, site construction supervision, and cross-functional team coordination.',
+    summary: 'Managed architectural engineering design drawings, BIM model integration, and cross-functional team coordination.',
     areasOfExpertise: [
       'Architectural and Structural Working Drawings',
-      'Project Management',
+      'BIM Model Integration & Coordination',
       'Bill of Quantities (BOQ)',
-      'Site Coordination & Quality Control'
+      'Quality Assurance & Compliance'
     ],
     responsibilities: [
-      'Supervised structural drawing extraction from central 3D Revit model',
+      'Supervised architectural/structural/MEP drawing extraction from central 3D Revit model',
       'Prepared detailed BOQ cost estimation and material requirement schedules',
-      'Coordinated between field construction crews and structural design office',
-      'Ensured architectural design compliance with Bangladesh National Building Code (BNBC)'
+      'Coordinated between field construction crews and vendors to ensure design intent was accurately implemented',
+      'Ensured architectural design compliance with pharmaceutical cleanroom standards and local building codes'
     ],
-    software: ['Autodesk Revit', 'AutoCAD', 'Microsoft Office', 'Project Management Tools'],
-    keyProjects: ['Commercial Plaza Structural Layout', 'Industrial Warehouse Steel Framework'],
+    software: ['Autodesk Revit', 'AutoCAD', 'Microsoft Office'],
+    keyProjects: ['Pharmaceutical Cleanroom Design', 'Industrial Warehouse Steel Framework'],
     highlights: ['Reduced drawing revision turnaround time by 30%', 'Managed BOQ takeoffs with <2% material variance']
-  },
-  {
-    id: 'exp-site-eng',
-    title: 'Site Engineer',
-    company: 'Proaab Residential Building',
-    employmentType: 'Full-time',
-    period: 'Jan 2022 – Dec 2022 (1 yr)',
-    location: 'Dhaka, Bangladesh',
-    summary: 'Conducted daily on-site civil engineering supervision, structural layout verification, rebar checking, and alignment against approved CAD/Revit drawings.',
-    areasOfExpertise: [
-      'Site Execution & Supervision',
-      'Architectural & Structural CAD Interpretation',
-      'Concrete & Rebar QA/QC'
-    ],
-    responsibilities: [
-      'Supervised concrete pourings, column formwork, and slab reinforcement layouts on site',
-      'Cross-checked 2D construction drawings against ongoing site construction',
-      'Managed site safety standards, material deliveries, and contractor progress logs'
-    ],
-    software: ['AutoCAD', 'MS Office', 'Revit Viewer'],
-    keyProjects: ['7-Story Residential Complex Construction'],
-    highlights: ['Maintained zero site safety incidents', 'Ensured precise structural column placement alignment']
   },
   {
     id: 'exp-revit-modeler',
     title: 'Revit Modeler',
-    company: 'Apex Town Equipment',
+    company: 'Azbil Telstar Bangladesh Ltd.',
     employmentType: 'Full-time',
-    period: 'Mar 2021 – Dec 2021 (10 mos)',
+    period: 'Mar 2018 – May 2022 (4 yrs 3 mos)',
     location: 'Dhaka, Bangladesh',
-    summary: 'Focused on high-volume architectural Revit 3D modeling, family creation, facade panel modeling, and quantity takeoffs.',
+    summary: 'Conducted daily on-site construction engineering supervision, layout verification, and alignment against approved CAD/Revit drawings.',
     areasOfExpertise: [
-      'Building 3D Model Development',
-      'Architectural Structural MEP Modeler',
-      'Quantity Takeoffs'
+      'BIM Modeling & Supervision',
+      'Architectural, Structural & MEP Coordination',
+      'Drawing QA/QC'
     ],
     responsibilities: [
-      'Converted 2D architectural sketches into detailed Revit 3D building geometry',
-      'Built custom door, window, and cabinetry parametric Revit family models',
-      'Extracted accurate schedule tables for glass, brick, and concrete quantities'
+      'BIM Modeling and coordination of architectural, structural, and MEP systems for ongoing construction projects',
+      'Cross-checked 2D construction drawings against ongoing site construction',
+      'As built verification of installations with approved Revit models',
     ],
-    software: ['Autodesk Revit', 'AutoCAD', 'Enscape'],
-    keyProjects: ['Township Equipment Enclosure Models', 'Residential Sub-division Unit Models'],
-    highlights: ['Developed 100+ parametric RFA component families']
+    software: ['AutoCAD', 'MS Office', 'Revit', 'Navisworks Manage'],
+    keyProjects: ['High-Rise BIM Pharmaceutical Facility', 'Industrial Warehouse Steel Framework'],
+    highlights: ['Ensure precise BIM model alignment with on-site construction, reducing rework and delays by 25%']
   },
   {
-    id: 'exp-sr-officer',
-    title: 'Sr. Officer - Revit Designer',
-    company: 'Neoclassic Life Science Ltd.',
+    id: 'exp-project-engineer',
+    title: 'Project Engineer',
+    company: 'Paradise Engineering Works',
     employmentType: 'Full-time',
-    period: 'Jan 2020 – Feb 2021 (1 yr 2 mos)',
+    period: 'Jan 2016 – Feb 2018 (2 yrs 2 mos)',
     location: 'Dhaka, Bangladesh',
-    summary: 'Lead Revit designer for cleanroom facilities, laboratory layouts, administrative offices, and HVAC service shaft modeling.',
+    summary: 'Architectural and Structural working drawing',
     areasOfExpertise: [
-      'BIM Modeling (Arch, Struct, MEP)',
-      'Cleanroom & Facility Layouts',
-      'Architectural Interior Documentation'
+      'Building 2D Model Development',
+      'Manage Project Schedule',
+      'Project Supervision'
     ],
     responsibilities: [
-      'Designed pharmaceutical cleanroom spatial plans with strict wall panel joint specifications',
-      'Coordinated HVAC ductwork and air filtration unit routing in ceiling plenums',
-      'Prepared presentation renders for management approval using Revit & Enscape'
+      'Drafting and supervision of quality works.',
+      'AutoCAD working drawing (Structural and Architectural)',
+      'Prepare BOQ of project materials.',
+      'As build drawing prepare',
+      'Supervise Project.'
     ],
-    software: ['Autodesk Revit', 'AutoCAD', 'MS Office', 'Enscape'],
-    keyProjects: ['Life Science Cleanroom Laboratory', 'Corporate Office Interior Refurbishment'],
-    highlights: ['Standardized cleanroom BIM template across company projects']
+    software: ['AutoCAD', 'MS Office'],
+    keyProjects: ['Construction management of residential and commercial buildings'],
+    highlights: ['Project supervision and quality assurance.']
+  },
+  {
+    id: 'exp-site-engineer',
+    title: 'Site Engineer',
+    company: 'Private Residential Building Projects',
+    employmentType: 'Full-time',
+    period: 'Jan 2013 – Dec 2015 (2 yrs)',
+    location: 'Dhaka, Bangladesh',
+    summary: 'Architectural and Structural drawing.',
+    areasOfExpertise: [
+      'Architectural and Structural drawing.',
+      'Construction',
+      'QC (Quality Control)',
+      'Supervision'
+    ],
+    responsibilities: [
+      'Supervise all construction work, Material Checks, Quality of Works ensure, etc.',
+      'Supervise projects (Structural, Architectural and Finishing).',
+      'BOQ.',
+      'Materials quality Checking',
+      'Materials Receive at Site.',
+      'Site Management.',
+      'As build drawing (AutoCAD).'
+    ],
+    software: ['AutoCAD', 'MS Office'],
+    keyProjects: ['Construction site management'],
+    highlights: ['Site construction and understing of architectural and structural drawings.']
   }
 ];
 

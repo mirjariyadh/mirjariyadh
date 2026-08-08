@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, FileText, CheckCircle2, ArrowRight, Layers, Cpu, Compass, Box, Wrench, ShieldCheck, Database, Award, MapPin, Building, Globe } from 'lucide-react';
-const profilePortraitImg = '/assets/images/about/mirja-riyadh-w.webp';
+const profilePortraitImg = '/assets/images/about/mirja-riyadh-seat.webp';
 
 interface AboutSectionProps {
   onOpenContact?: () => void;
@@ -202,19 +202,19 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-around gap-3 text-xs font-mono font-bold text-[#111827] dark:text-slate-200">
             <div className="px-3 py-1.5 rounded bg-[#EEF2F5] dark:bg-slate-900 border border-[#E5E7EB] dark:border-slate-800">
-              REALITY
+              PROJECT DATA
             </div>
             <span className="text-[#18A999] text-sm sm:rotate-0 rotate-90">↓</span>
             <div className="px-3 py-1.5 rounded bg-[#EEF2F5] dark:bg-slate-900 border border-[#E5E7EB] dark:border-slate-800">
-              POINT CLOUD
+              BIM SETUP / REVIT MODELING
             </div>
             <span className="text-[#18A999] text-sm sm:rotate-0 rotate-90">↓</span>
             <div className="px-3 py-1.5 rounded bg-[#EEF2F5] dark:bg-slate-900 border border-[#E5E7EB] dark:border-slate-800">
-              BIM MODEL
+              COORDINATION & QA/QC + CLASH
             </div>
             <span className="text-[#18A999] text-sm sm:rotate-0 rotate-90">↓</span>
             <div className="px-3 py-1.5 rounded bg-[#18A999] text-white">
-              DELIVERABLE (RVT/DWG/IFC)
+              DELIVERABLE (RVT/DWG/IFC/PDF)
             </div>
           </div>
         </div>
@@ -257,8 +257,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                 </h3>
                 <ul className="text-xs text-[#667085] dark:text-slate-400 space-y-1 font-mono">
                   <li>• Project requirements</li>
-                  <li>• Source data</li>
-                  <li>• Client expectations</li>
+                  <li>• Drawings & specifications</li>
+                  <li>• BIM standards & LOD</li>
                 </ul>
               </div>
             </div>
@@ -273,12 +273,12 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                   <span className="hidden md:inline text-[#18A999] font-mono text-xs">→</span>
                 </div>
                 <h3 className="text-sm font-bold font-mono text-[#111827] dark:text-white tracking-wider uppercase mb-2">
-                  ANALYZE
+                  PLAN
                 </h3>
                 <ul className="text-xs text-[#667085] dark:text-slate-400 space-y-1 font-mono">
-                  <li>• Drawings & Specs</li>
-                  <li>• Point clouds</li>
-                  <li>• Existing conditions</li>
+                  <li>• Model strategy</li>
+                  <li>• Project setup & coordinates</li>
+                  <li>• Worksets & BIM standards</li>
                 </ul>
               </div>
             </div>
@@ -296,9 +296,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                   MODEL
                 </h3>
                 <ul className="text-xs text-[#667085] dark:text-slate-400 space-y-1 font-mono">
-                  <li>• Autodesk Revit</li>
-                  <li>• Architecture</li>
-                  <li>• MEP & BIM</li>
+                  <li>• Revit Architecture</li>
+                  <li>• Revit MEP</li>
+                  <li>• Families, systems & detailed BIM</li>
                 </ul>
               </div>
             </div>
@@ -316,9 +316,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                   COORDINATE
                 </h3>
                 <ul className="text-xs text-[#667085] dark:text-slate-400 space-y-1 font-mono">
-                  <li>• QA / QC Check</li>
-                  <li>• Model review</li>
-                  <li>• Clash coordination</li>
+                  <li>• Model review & QA/QC</li>
+                  <li>• Navisworks clash detection</li>
+                  <li>• Multidiscipline coordination</li>
                 </ul>
               </div>
             </div>
@@ -336,9 +336,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                   DELIVER
                 </h3>
                 <ul className="text-xs text-[#667085] dark:text-slate-400 space-y-1 font-mono">
-                  <li>• RVT & IFC files</li>
-                  <li>• DWG & PDF sheets</li>
-                  <li>• Schedules & reports</li>
+                  <li>• RVT & IFC models</li>
+                  <li>• DWG & PDF documentation</li>
+                  <li>• Schedules, quantities & reports</li>
                 </ul>
               </div>
             </div>
@@ -415,7 +415,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
                 NAVISWORKS MANAGE · COORDINATION
               </div>
               <p className="text-xs text-[#667085] dark:text-slate-300 leading-relaxed font-sans">
-                Clash detection matrix, federated model aggregation, 4D simulation, and interdisciplinary coordination.
+                Clash detection matrix, colorful presentations, and interdisciplinary coordination.
               </p>
             </div>
             <div className="mt-4 pt-3 border-t border-[#E5E7EB] dark:border-slate-800 text-[11px] font-mono text-slate-500 dark:text-slate-400">
@@ -435,7 +435,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact, onSel
               Adobe Photoshop
             </span>
             <span className="px-3 py-1.5 rounded bg-white dark:bg-slate-800 border border-[#E5E7EB] dark:border-slate-700 shadow-xs">
-              Adobe Acrobat Pro
+              Adobe Acrobat
             </span>
             <span className="px-3 py-1.5 rounded bg-white dark:bg-slate-800 border border-[#E5E7EB] dark:border-slate-700 shadow-xs">
               Microsoft Excel
