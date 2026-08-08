@@ -1,11 +1,12 @@
 import React from 'react';
 import { ArrowRight, Send, Mail, MapPin, Phone, Upload, Cpu, Layers, CheckCircle, FileCheck } from 'lucide-react';
-import bimEcosystemImg from '../assets/images/bim_ecosystem_diagram_1786164617788.webp';
-import pointCloudBimImg from '../assets/images/point_cloud_bim_1785993136586.webp';
-import mepClashImg from '../assets/images/mep_clash_detection_1785993146756.webp';
-import archModelImg from '../assets/images/bim_architectural_model_1785993123920.webp';
-import revitFamilyImg from '../assets/images/revit_custom_family_1785993157920.webp';
-import isometricImg from '../assets/images/isometric_3d_bim_building_1786164106214.webp';
+import pointCloudBIMbefore from '/assets/images/workflow/pc1.webp';
+import pointCloudBIMafter from '/assets/images/workflow/pc2.webp';
+import MEPbefore from '/assets/images/workflow/mc1.webp';
+import MEPafter from '/assets/images/workflow/mc2.webp';
+import Pdf2CADbefore from '/assets/images/workflow/pa1.webp';
+import Pdf2CADafter from '/assets/images/workflow/pa2.webp';
+import BIMecosystem from '/assets/images/workflow/es1.webp';
 import { ImageComparisonSlider } from './ImageComparisonSlider';
 
 interface WorkflowSectionProps {
@@ -149,7 +150,7 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenContact 
               </div>
               <div className="relative aspect-video rounded bg-slate-950 overflow-hidden border border-slate-200 dark:border-slate-800 flex items-center justify-center">
                 <img
-                  src={bimEcosystemImg}
+                  src={BIMecosystem}
                   alt="BIM Ecosystem Workflow Model"
                   className="w-full h-full object-cover"
                 />
@@ -170,8 +171,8 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenContact 
                 </div>
               </div>
               <ImageComparisonSlider
-                beforeImage={isometricImg}
-                afterImage={pointCloudBimImg}
+                beforeImage={pointCloudBIMbefore}
+                afterImage={pointCloudBIMafter}
                 beforeLabel="POINT CLOUD RAW"
                 afterLabel="3D BIM MODEL"
                 title="POINT CLOUD TO 3D BIM MODEL"
@@ -187,8 +188,8 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenContact 
                 </div>
               </div>
               <ImageComparisonSlider
-                beforeImage={revitFamilyImg}
-                afterImage={mepClashImg}
+                beforeImage={MEPbefore}
+                afterImage={MEPafter}
                 beforeLabel="UNCOORDINATED"
                 afterLabel="COORDINATED MEP"
                 title="MEP CLASH DETECTION & COORDINATION"
@@ -204,11 +205,11 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenContact 
                 </div>
               </div>
               <ImageComparisonSlider
-                beforeImage={revitFamilyImg}
-                afterImage={archModelImg}
+                beforeImage={Pdf2CADbefore}
+                afterImage={Pdf2CADafter}
                 beforeLabel="2D PDF DRAFT"
-                afterLabel="3D CAD DWG"
-                title="2D PDF DRAFT TO 3D CAD DWG CONVERSION"
+                afterLabel="2D CAD DWG"
+                title="2D PDF DRAFT TO 2D CAD DWG CONVERSION"
                 alt="PDF to CAD drawing comparison"
               />
             </div>
