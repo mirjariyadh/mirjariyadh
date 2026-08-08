@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BimWireframeCanvas } from './BimWireframeCanvas';
 import { ArrowRight, Box, Building2, Settings2, Globe, Scan, Cpu, FileText, Layers, Sparkles } from 'lucide-react';
-import heroIsometricImg from '../assets/images/isometric_3d_bim_building_1786164106214.webp';
+import heroIsometricImg from '../assets/images/hero.webp';
 
 interface HeroProps {
   onViewProjects: (filter?: string) => void;
