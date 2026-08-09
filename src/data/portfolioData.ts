@@ -746,7 +746,7 @@ export const CAREER_JOURNEY: JourneyExperience[] = [
     title: 'Freelance BIM Specialist',
     company: 'Upwork & Fiverr (Global Clients)',
     employmentType: 'Freelance / Contract',
-    period: 'July 2024 – Present (2 yrs)',
+    period: 'Oct 2023 – Present',
     location: 'Remote / Online',
     summary: 'Delivering end-to-end architectural, structural & MEP BIM projects for international clients across USA, UK, Canada, Australia, and Europe via Upwork and Fiverr top-rated seller status.',
     areasOfExpertise: [

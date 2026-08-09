@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, FileText, CheckCircle2, ArrowRight, Layers, Cpu, Compass, Box, Wrench, ShieldCheck, Database, Award, MapPin, Building, Globe } from 'lucide-react';
-const profilePortraitImg = '/assets/images/about/mirja-riyadh-seat.webp';
+const profilePortraitImg = '/assets/images/about/mirja-riyadh-desk.webp';
 
 interface AboutSectionProps {
   onOpenContact?: () => void;
