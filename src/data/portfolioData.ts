@@ -528,6 +528,165 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     ],
     externalUrl: 'https://mirjariyadh.com.bd'
   },
+  {
+    id: 'project-19',
+    title: 'Architectural & MEP 3D BIM Model for a Private House',
+    category: ['Architectural Modeling', 'MEP Systems'],
+    thumbnail: 'assets/images/projects/private-project-1/t0.webp',
+    images: [
+      { url: 'assets/images/projects/private-project-1/p0.webp', caption: 'Architectural & MEP 3D BIM Model for a Private House' },
+      { url: 'assets/images/projects/private-project-1/p1.webp', caption: 'Architectural & MEP 3D BIM Model for a Private House' },
+      { url: 'assets/images/projects/private-project-1/p2.webp', caption: 'Architectural & MEP 3D BIM Model for a Private House' },
+      { url: 'assets/images/projects/private-project-1/p3.webp', caption: 'Architectural & MEP 3D BIM Model for a Private House' }
+    ],
+    shortDesc: 'Architectural and MEP 3D BIM model for a private house.',
+    fullDesc: 'Developed a fully integrated architectural and MEP 3D BIM model for a private house, delivering a coordinated parametric design optimized for seamless residential construction and system installation.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'United States (Florida)',
+    completionDate: 'Feb 2024',
+    areaSqFt: '1,000 sq.ft',
+    keyFeatures: [
+      'Created a highly detailed 3D Revit model merging custom residential architecture with core MEP engineering',
+      'Routed precise layouts for domestic plumbing, residential HVAC ductwork, and electrical circuitry',
+      'Conducted comprehensive clash detection to resolve spatial conflicts between services and structural framing',
+      'Generated coordinated, installation-ready construction documentation packages including material quantities'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-20',
+    title: 'Architectural Renovation BIM Model for a Private House',
+    category: 'Architectural Modeling',
+    thumbnail: 'assets/images/projects/renovation-p1/p1.webp',
+    images: [
+      { url: 'assets/images/projects/renovation-p1/p1.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p2.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p3.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p4.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p5.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p6.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p7.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p8.webp', caption: 'Architectural Renovation BIM Model for a Private House' },
+      { url: 'assets/images/projects/renovation-p1/p9.webp', caption: 'Architectural Renovation BIM Model for a Private House' }
+    ],
+    shortDesc: 'Architectural renovation BIM model for a private house, including detailed interior and exterior modeling.',
+    fullDesc: 'Developed a high-fidelity architectural renovation BIM model for a private house, delivering comprehensive interior and exterior 3D parametric components to streamline modernization and spatial restructuring.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'United States (California)',
+    completionDate: 'Jan 2024',
+    areaSqFt: '1,000 sq.ft',
+    keyFeatures: [
+      'Modeled detailed as-built exterior facades, roof profiles, and architectural envelope assemblies',
+      'Captured intricate interior finishes, custom cabinetry, spatial layouts, and internal structural elements',
+      'Visualized exact design interventions by separating existing building fabrics from proposed renovation phases',
+      'Generated precise, construction-ready documentation for seamless on-site structural alterations and fit-outs'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-21',
+    title: 'Architectural Model with Detail Roof Structure for Sand State',
+    category: 'Architectural Modeling',
+    thumbnail: 'assets/images/projects/sand-state/t0.webp',
+    images: [
+      { url: 'assets/images/projects/sand-state/p0.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p1.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p2.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p3.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p4.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p5.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p6.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' },
+      { url: 'assets/images/projects/sand-state/p7.webp', caption: 'Architectural Model with Detail Roof Structure for Sand State' }
+    ],
+    shortDesc: 'Architectural model with detailed roof structure modeling for a residential project.',
+    fullDesc: 'Developed a high-fidelity architectural BIM model for a residential project, featuring precise 3D parametric roof structure modeling to ensure structural integrity and flawless construction alignment.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'United States',
+    completionDate: 'Mar 2022',
+    areaSqFt: '4,000 sq.ft',
+    keyFeatures: [
+      'Modeled complex, highly accurate residential roof structures including rafters, trusses, purlins, and framing',
+      'Integrated detailed multi-layered roof assemblies, flashing zones, and integrated drainage profiles',
+      'Coordinated structural load-bearing components seamlessly with the underlying architectural layouts',
+      'Generated specialized roof framing plans, connection details, and precise lumber take-off schedules'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-22',
+    title: 'Architectural & MEP 3D BIM Model for a Spa Center',
+    category: ['Architectural Modeling', 'MEP Systems' , 'Documentation'],
+    thumbnail: 'assets/images/projects/spa-lodge-1/t0.webp',
+    images: [
+      { url: 'assets/images/projects/spa-lodge-1/p0.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p1.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p2.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p3.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p4.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p5.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p6.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p7.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p8.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p9.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' },
+      { url: 'assets/images/projects/spa-lodge-1/p10.webp', caption: 'Architectural & MEP 3D BIM Model for a Spa Center' }
+    ],
+    shortDesc: 'Architectural & MEP 3D BIM Model for a Spa Center',
+    fullDesc: 'Developed a fully coordinated Architectural and MEP 3D BIM model for a spa center, integrating specialized wellness layouts with complex mechanical, electrical, and plumbing engineering systems.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'United Kingdom',
+    completionDate: 'May 2023',
+    areaSqFt: '2,700 sq.ft',
+    keyFeatures: [
+      'Designed detailed 3D architectural wellness layouts including treatment rooms, thermal zones, and wet areas',
+      'Routed complex MEP services tailored for specialized spa equipment, high-humidity ventilation, and pool plumbing',
+      'Executed multi-disciplinary clash detection to ensure zero interference between structural framing and heavy MEP utility lines',
+      'Generated construction-ready parametric documentation packages, detailing installation specifics and exact equipment schedules'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-23',
+    title: 'Construction City permit set for a Residential Project',
+    category: ['Architectural Modeling', 'MEP Systems' , 'Documentation'],
+    thumbnail: 'assets/images/projects/the-chase-house/t0.webp',
+    images: [
+      { url: 'assets/images/projects/the-chase-house/t0.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p0.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p01.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p1.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p2.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p3.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p4.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p5.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p6.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p7.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p8.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p9.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p10.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p11.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p12.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p13.webp', caption: 'Construction City permit set for a Residential Project' },
+      { url: 'assets/images/projects/the-chase-house/p14.webp', caption: 'Construction City permit set for a Residential Project' }
+    ],
+    shortDesc: 'Construction City permit set for a Residential Project, including detailed architectural and MEP documentation.',
+    fullDesc: 'Developed a comprehensive, municipal-compliant construction permit set for a residential project, delivering fully coordinated architectural layouts and detailed MEP documentation to secure rapid city approval.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD'],
+    clientRegion: 'United States',
+    completionDate: 'Nov 2023',
+    areaSqFt: '4,000 sq.ft',
+    keyFeatures: [
+      'Generated code-compliant architectural drawing sets including dimensioned site plans, egress routes, and building envelopes',
+      'Integrated detailed MEP documentation covering residential load calculations, electrical circuitry, and plumbing schematics',
+      'Enforced localized municipal zoning laws and building standards directly within the 3D parametric BIM environment',
+      'Provided a completely coordinated, clash-resolved permit package to minimize city review cycles and construction delays'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
 ];
 
 export const CLIENT_REVIEWS: Review[] = [
