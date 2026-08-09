@@ -294,32 +294,237 @@ export const PORTFOLIO_PROJECTS: Project[] = [
   },
   {
     id: 'project-10',
-    title: 'Marple Cross Architectural Residence 3D BIM Model',
-    category: 'Architectural Modeling',
-    thumbnail: 'assets/images/projects/marple-cross/t0.webp',
+    title: 'Point Cloud to Revit Conversion for a Residential Property',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p1/t0.webp',
     images: [
-      { url: 'assets/images/projects/marple-cross/p1.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p2.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p3.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p4.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p5.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p6.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p7.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p8.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' },
-      { url: 'assets/images/projects/marple-cross/p9.webp', caption: 'Architectural Residence 3D BIM Model for Marple Cross' }
+      { url: 'assets/images/projects/point-cloud-p1/p1.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' },
+      { url: 'assets/images/projects/point-cloud-p1/p2.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' }
     ],
-    shortDesc: 'Concept to 3D Revit model for a residential property, including detailed architectural elements and construction documentation.',
-    fullDesc: 'Transformed schematic design concepts into a detailed 3D Revit model for a residential property, integrating precise architectural elements and automated construction documentation packages.',
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a residential property, including architectural elements.',
+    fullDesc: 'Transformed raw point cloud scan data into a highly detailed 3D Revit model for a residential property, capturing precise architectural elements for accurate as-built documentation.',
     lod: 'LOD 300',
     softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
-    clientRegion: 'United States (California)',
-    completionDate: 'March 2024',
-    areaSqFt: '4,500 sq.ft',
+    clientRegion: 'Germany',
+    completionDate: 'Nov 2023',
+    areaSqFt: '4,000 sq.ft',
     keyFeatures: [
-      'Developed a detailed 3D Revit model from initial residential schematic design concepts',
-      'Modeled precise architectural elements including complex spatial layouts, fixtures, and finishes',
-      'Generated automated, construction-ready documentation packages with dimensioned plans and sections',
-      'Extracted accurate material take-offs and schedules to streamline project procurement'
+      'Converted high-density point cloud scan data into a millimeter-accurate 3D Revit model',
+      'Captured complex as-built residential architectural elements, including structural walls, fixtures, and finishes',
+      'Eliminated manual measurement errors by modeling directly over registered laser scan data',
+      'Provided a reliable, high-fidelity BIM foundation for future residential renovations and extensions'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-11',
+    title: 'Point Cloud to Revit Conversion for a Residential Property',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p2/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p2/p1.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' },
+      { url: 'assets/images/projects/point-cloud-p2/p2.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a residential property, including architectural elements.',
+    fullDesc: 'Transformed raw point cloud scan data into a highly detailed 3D Revit model for a residential property, capturing precise architectural elements for accurate as-built documentation.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Germany',
+    completionDate: 'Dec 2023',
+    areaSqFt: '2,400 sq.ft',
+    keyFeatures: [
+      'Converted high-density point cloud scan data into a millimeter-accurate 3D Revit model',
+      'Captured complex as-built residential architectural elements, including structural walls, fixtures, and finishes',
+      'Eliminated manual measurement errors by modeling directly over registered laser scan data',
+      'Provided a reliable, high-fidelity BIM foundation for future residential renovations and extensions'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-12',
+    title: 'Point Cloud to Revit Conversion for a Residential Property',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p3/p1.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p3/p1.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' },
+      { url: 'assets/images/projects/point-cloud-p3/p2.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' },
+      { url: 'assets/images/projects/point-cloud-p3/p3.webp', caption: 'Point Cloud to Revit Conversion for a Residential Property' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a residential property, including architectural elements.',
+    fullDesc: 'Transformed raw point cloud scan data into a highly detailed 3D Revit model for a residential property, capturing precise architectural elements for accurate as-built documentation.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Australia',
+    completionDate: 'Dec 2023',
+    areaSqFt: '1,800 sq.ft',
+    keyFeatures: [
+      'Converted high-density point cloud scan data into a millimeter-accurate 3D Revit model',
+      'Captured complex as-built residential architectural elements, including structural walls, fixtures, and finishes',
+      'Eliminated manual measurement errors by modeling directly over registered laser scan data',
+      'Provided a reliable, high-fidelity BIM foundation for future residential renovations and extensions'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-13',
+    title: 'Point Cloud to Revit Conversion for a School Building',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p4/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p4/t0.webp', caption: 'Point Cloud to Revit Conversion for a School Building' },
+      { url: 'assets/images/projects/point-cloud-p4/p0.webp', caption: 'Point Cloud to Revit Conversion for a School Building' },
+      { url: 'assets/images/projects/point-cloud-p4/p1.webp', caption: 'Point Cloud to Revit Conversion for a School Building' },
+      { url: 'assets/images/projects/point-cloud-p4/p2.webp', caption: 'Point Cloud to Revit Conversion for a School Building' },
+      { url: 'assets/images/projects/point-cloud-p4/p3.webp', caption: 'Point Cloud to Revit Conversion for a School Building' },
+      { url: 'assets/images/projects/point-cloud-p4/p4.webp', caption: 'Point Cloud to Revit Conversion for a School Building' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a residential property, including architectural elements.',
+    fullDesc: 'Transformed raw point cloud scan data into a highly detailed 3D Revit model for a residential property, capturing precise architectural elements for accurate as-built documentation.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Australia',
+    completionDate: 'Jan 2024',
+    areaSqFt: '1,800 sq.ft',
+    keyFeatures: [
+      'Converted high-density point cloud scan data into a millimeter-accurate 3D Revit model',
+      'Captured complex as-built residential architectural elements, including structural walls, fixtures, and finishes',
+      'Eliminated manual measurement errors by modeling directly over registered laser scan data',
+      'Provided a reliable, high-fidelity BIM foundation for future residential renovations and extensions'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-14',
+    title: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p5/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p5/t0.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p0.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p1.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p2.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p3.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p4.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' },
+      { url: 'assets/images/projects/point-cloud-p5/p5.webp', caption: 'Point Cloud to Revit Conversion for Gymnazium-Nad-Kavalirkou' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a school building.',
+    fullDesc: 'Converted high-density laser scan data into a highly detailed 3D Revit model for a school building, capturing accurate as-built architectural and structural elements for educational facility management.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Czech Republic',
+    completionDate: 'Feb 2024',
+    areaSqFt: '35,000 sq.ft',
+    keyFeatures: [
+      'Transformed complex school point cloud data into a millimeter-accurate 3D Revit model',
+      'Captured detailed institutional layouts, structural elements, and large-scale architectural features',
+      'Documented existing conditions precisely to eliminate manual surveying errors across multiple campus blocks',
+      'Provided a high-fidelity as-built BIM baseline optimized for school renovation and facility management'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-15',
+    title: 'Point Cloud to Revit Conversion for Pražský Dům',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p6/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p6/t0.webp', caption: 'Point Cloud to Revit Conversion for Pražský Dům' },
+      { url: 'assets/images/projects/point-cloud-p6/p0.webp', caption: 'Point Cloud to Revit Conversion for Pražský Dům' },
+      { url: 'assets/images/projects/point-cloud-p6/p1.webp', caption: 'Point Cloud to Revit Conversion for Pražský Dům' },
+      { url: 'assets/images/projects/point-cloud-p6/p2.webp', caption: 'Point Cloud to Revit Conversion for Pražský Dům' },
+      { url: 'assets/images/projects/point-cloud-p6/p3.webp', caption: 'Point Cloud to Revit Conversion for Pražský Dům' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a historical residential building.',
+    fullDesc: 'Converted high-density point cloud scan data into a highly detailed 3D Revit model for a historical residential building, capturing complex non-standard geometries for precise heritage preservation and documentation.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Czech Republic',
+    completionDate: 'Feb 2024',
+    areaSqFt: '35,000 sq.ft',
+    keyFeatures: [
+      'Transformed raw laser scan data into a millimeter-accurate 3D Revit as-built heritage model',
+      'Captured complex, non-standard historic wall geometries, ornamental details, and structural anomalies',
+      'Preserved architectural authenticity by modeling directly over registered high-density point clouds',
+      'Provided a reliable, high-fidelity BIM foundation optimized for historic renovation and preservation workflows'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-16',
+    title: 'Point Cloud to Revit Conversion for Barvirska Main Building',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p7/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p7/p0.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Main Building' },
+      { url: 'assets/images/projects/point-cloud-p7/p1.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Main Building' },
+      { url: 'assets/images/projects/point-cloud-p7/p2.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Main Building' },
+      { url: 'assets/images/projects/point-cloud-p7/p3.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Main Building' },
+      { url: 'assets/images/projects/point-cloud-p7/p4.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Main Building' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a hospital building.',
+    fullDesc: 'Converted high-density point cloud scan data into a highly detailed 3D Revit model for a hospital building, capturing complex as-built architectural layouts and critical healthcare infrastructure.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Czech Republic',
+    completionDate: 'Mar 2024',
+    areaSqFt: '20,000 sq.ft',
+    keyFeatures: [
+      'Transformed massive hospital laser scan data into a millimeter-accurate 3D Revit as-built model',
+      'Captured complex medical layouts, specialized healthcare partitions, and structural frameworks precisely',
+      'Documented existing facility conditions without disrupting ongoing medical operations or active patient zones',
+      'Provided a high-fidelity BIM baseline optimized for complex healthcare renovations, MEP coordination, and facility management'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-17',
+    title: 'Point Cloud to Revit Conversion for Barvirska Front Building',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p8/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p8/p0.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Front Building' },
+      { url: 'assets/images/projects/point-cloud-p8/p1.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Front Building' },
+      { url: 'assets/images/projects/point-cloud-p8/p2.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Front Building' },
+      { url: 'assets/images/projects/point-cloud-p8/p3.webp', caption: 'Point Cloud to Revit Conversion for Barvirska Front Building' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a office building.',
+    fullDesc: 'Converted high-density point cloud scan data into a detailed 3D Revit model for a commercial office building, establishing an accurate as-built baseline for corporate spatial optimization and asset tracking.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Czech Republic',
+    completionDate: 'Apr 2024',
+    areaSqFt: '12,200 sq.ft',
+    keyFeatures: [
+      'Transformed multi-floor office laser scan data into a millimeter-accurate 3D Revit model',
+      'Captured complex commercial layouts, structural columns, core areas, and ceiling grids precisely',
+      'Documented existing open-plan configurations and core services to optimize corporate spatial planning',
+      'Provided a high-fidelity as-built BIM baseline for commercial interior fit-outs and facility lifecycle management'
+    ],
+    externalUrl: 'https://mirjariyadh.com.bd'
+  },
+  {
+    id: 'project-18',
+    title: 'Point Cloud to Revit Conversion for Hotelová škola a VOŠ Fráni Šrámka',
+    category: 'Point Cloud to BIM',
+    thumbnail: 'assets/images/projects/point-cloud-p9/t0.webp',
+    images: [
+      { url: 'assets/images/projects/point-cloud-p9/p0.webp', caption: 'Point Cloud to Revit Conversion for Hotelová škola a VOŠ Fráni Šrámka' },
+      { url: 'assets/images/projects/point-cloud-p9/p1.webp', caption: 'Point Cloud to Revit Conversion for Hotelová škola a VOŠ Fráni Šrámka' },
+      { url: 'assets/images/projects/point-cloud-p9/p2.webp', caption: 'Point Cloud to Revit Conversion for Hotelová škola a VOŠ Fráni Šrámka' },
+      { url: 'assets/images/projects/point-cloud-p9/p3.webp', caption: 'Point Cloud to Revit Conversion for Hotelová škola a VOŠ Fráni Šrámka' }
+    ],
+    shortDesc: 'Point cloud scan data converted into a detailed 3D Revit model for a Hotel building.',
+    fullDesc: 'Converted high-density point cloud scan data into a detailed 3D Revit model for a hotel building, capturing intricate hospitality layouts and structural frameworks for large-scale renovation and facility management.',
+    lod: 'LOD 300',
+    softwareUsed: ['Autodesk Revit', 'Autodesk AutoCAD', 'Navisworks'],
+    clientRegion: 'Czech Republic',
+    completionDate: 'May 2024',
+    areaSqFt: '30,000 sq.ft',
+    keyFeatures: [
+      'Transformed large-scale hotel laser scan data into a millimeter-accurate 3D Revit as-built model',
+      'Captured complex multi-room guest layouts, grand lobbies, structural columns, and circulation zones precisely',
+      'Documented existing architectural conditions to streamline future hospitality interior fit-outs and modernizations',
+      'Provided a high-fidelity BIM baseline optimized for multidisciplinary MEP coordination and ongoing resort facility management'
     ],
     externalUrl: 'https://mirjariyadh.com.bd'
   },
